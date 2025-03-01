@@ -36,7 +36,7 @@ namespace BoidVisualize
 
                 ApplySeparation(boid);
                 ApplyAlignment(boid);
-                //ApplyCohesion(boid);
+                ApplyCohesion(boid);
 
                 boid.X = (boid.X + Console.WindowWidth) % Console.WindowWidth;
                 boid.Y = (boid.Y + Console.WindowHeight) % Console.WindowHeight;
